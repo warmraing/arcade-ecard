@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: #0d2ebe;
+    text-decoration: none;
+}
+
+div.QRcodeShow {
+    border: 1px solid black;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+div#cardQRCode {
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+div.walletStatus {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.hide {
+    display: none !important;
+}
+div.balanceType {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p.balanceShow {
+    margin-bottom: 0%;
+    margin-top: 10%;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+p.balanceName {
+    margin-top: 20%;
+    font-size: 0.85em;
+    margin-bottom: 0%;
+}
+
+div.cardMenu {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+    min-width: 300px;
+}
+div.cardMenu button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    font-size: medium;
+}
+
+form.inputType {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    width: 85%;
+    gap: 8px;
+    font-size: 14px;
+}
+form.inputType input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin-bottom: 4%;
+}
+form.inputType button {
+    border-radius: 6px;
+    padding: 6px 12px;
+    background-color: #1c8139;
+    font-size: 14px;
+    color: white;
+    border: unset;
+}
+
+div.apiSiteSetting {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p.left {
+    padding-bottom: 3%;
+    padding-left: 6%;
+    font-weight: bold;
+}
+
+div.shopInfo {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 300px;
+}
+
+div.loginMenu {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+    min-width: 300px;
+}
