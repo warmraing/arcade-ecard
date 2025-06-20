@@ -14,16 +14,33 @@ a {
     text-decoration: none;
 }
 
-div.QRcodeShow {
+.hide {
+    display: none !important;
+}
+
+div.flexBoxInit {
     border: 1px solid black;
-    flex-shrink: 0;
-    margin-bottom: 20px;
     border-radius: 10px;
-    padding-bottom: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    min-width: 300px;
+}
+
+p.left {
+    padding-left: 3%;
+    font-weight: bold;
+}
+
+div.QRcodeShow {
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 0px;
 }
 
 div#cardQRCode {
-    margin-bottom: 5%;
     display: flex;
     justify-content: center;
 }
@@ -36,9 +53,6 @@ div.walletStatus {
     align-items: stretch;
 }
 
-.hide {
-    display: none !important;
-}
 div.balanceType {
     display: flex;
     flex-direction: column;
@@ -46,8 +60,7 @@ div.balanceType {
 }
 
 p.balanceShow {
-    margin-bottom: 0%;
-    margin-top: 10%;
+    margin: 0%;
     font-size: 1.25em;
     font-weight: bold;
 }
@@ -55,20 +68,8 @@ p.balanceShow {
 p.balanceName {
     margin-top: 20%;
     font-size: 0.85em;
-    margin-bottom: 0%;
 }
 
-div.cardMenu {
-    border: 1px solid black;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 10px;
-    min-width: 300px;
-}
 div.cardMenu button {
     display: flex;
     flex-direction: row;
@@ -111,32 +112,12 @@ div.apiSiteSetting {
     align-items: center;
 }
 
-p.left {
-    padding-bottom: 3%;
-    padding-left: 6%;
-    font-weight: bold;
-}
-
 div.shopInfo {
-    border: 1px solid black;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    display: flex;
-    flex-flow: row nowrap;
     align-items: center;
     gap: 5%;
-    padding-left: 10px;
-    padding-right: 10px;
-    min-width: 300px;
 }
 
 div.loginMenu {
-    border: 1px solid black;
-    border-radius: 10px;
-    display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    padding: 10px 10px;
-    min-width: 300px;
 }

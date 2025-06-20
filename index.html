@@ -15,12 +15,12 @@
 <body>
     <h1>游戏厅会员码</h1>
 
-    <div class="shopInfo hide" id="cardShopArea">
+    <div class="flexBoxInit shopInfo hide" id="cardShopArea">
         <img src="./img/shop.svg" alt="shopLogo" id="shopLogo">
         <p id="shopName"></p>
     </div>
 
-    <div class="QRcodeShow hide" id="QRcodeShowArea">
+    <div class="flexBoxInit QRcodeShow hide" id="QRcodeShowArea">
         <p class="left">卡号：<span id="userCardId"></span></p> 
         <!-- 用于显示二维码 -->
         <div id="cardQRCode"></div>
@@ -37,11 +37,11 @@
         </div>
     </div>
 
-    <div class="cardMenu hide" id="cardMenuArea">
+    <div class="flexBoxInit cardMenu hide" id="cardMenuArea">
         <button type="button" id="cleanCardButton"><img src="./img/logout.svg" alt="">清除卡数据</button>
     </div>
 
-    <div class="loginMenu hide" id="cardSetArea">      
+    <div class="flexBoxInit loginMenu hide" id="cardSetArea">      
         <form class="inputType"  id="cardSetForm">
             <label for="userInputToken">Token</label>
             <input type="text" id="userInputToken" name="userInputToken" required />
